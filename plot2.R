@@ -20,7 +20,7 @@ date <- as.character(as.Date(hpcDataSubset$Date, "%d/%m/%Y"))
 m <- paste(date, hpcDataSubset$Time)
 dateTime <- strptime(m, "%Y-%m-%d %H:%M:%S")
 
-## prepare a file plot1.png in current directory
+## prepare a file plot2.png in current directory
 png("plot2.png", bg = "white", width = 480, height = 480)
 
 plot(dateTime, as.numeric(hpcDataSubset$Global_active_power), type="l",

@@ -19,7 +19,7 @@ date <- as.character(as.Date(hpcDataSubset$Date, "%d/%m/%Y"))
 x <- paste(date, hpcDataSubset$Time)
 dateTime <- strptime(x, "%Y-%m-%d %H:%M:%S")
 
-## prepare a file plot1.png in current directory
+## prepare a file plot3.png in current directory
 png("plot3.png", width = 480, height = 480)
 ## plot for sub metering 1
 plot(dateTime, as.numeric(hpcDataSubset$Sub_metering_1), type="l",
