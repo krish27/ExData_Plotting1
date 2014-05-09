@@ -1,8 +1,10 @@
 ## Plot1
 
+## Refer README.md for instructions to download dataset.
+
 ## File household_power_consumption.txt containg data should
-## be in your current working directory or you can set where 
-## file is located using setwd() command
+## be in your current working directory or you can
+## specify the file path
 
 hpcFile = "household_power_consumption.txt"
 
